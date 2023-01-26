@@ -30,4 +30,5 @@ TEST_CASE("RemoveTwo function gives correct values.", "[removetwo]") {
     REQUIRE(RemoveTwos(7) == 7);
     REQUIRE(RemoveTwos(16) == 1);
     REQUIRE(RemoveTwos(52) == 13);
+    REQUIRE(RemoveTwos(168) == 21);
 }
